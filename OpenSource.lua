@@ -1,5 +1,5 @@
 --[[
-  Dev: redz9999
+  Dev: lynix
   Lib: redzLibV5
   github: REDzHUB
   
@@ -442,8 +442,8 @@ if not _env.LoadedFarm then
   end)
 end
 
-local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/REDzHUB/RedzLibV5/main/Source.Lua"))()
-local Window = redzlib:MakeWindow({ Title = "redz Hub : Meme Sea", SubTitle = "by redz9999", SaveFolder = "redzHub-MemeSea.json" })
+local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/tlredz/RedzLibV5/main/Source.Lua"))()
+local Window = redzlib:MakeWindow({ Title = "Shadow Hub : Meme Sea", SubTitle = "by lynix9999", SaveFolder = "redzHub-MemeSea.json" })
 Window:AddMinimizeButton({
   Button = { Image = "rbxassetid://15298567397", BackgroundTransparency = 0 },
   Corner = { CornerRadius = UDim.new(0, 6) }
